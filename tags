@@ -1,0 +1,96 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A0	IIR_filter.c	192;"	d	file:
+A1	IIR_filter.c	193;"	d	file:
+A2	IIR_filter.c	194;"	d	file:
+B0	IIR_filter.c	187;"	d	file:
+B1	IIR_filter.c	188;"	d	file:
+B2	IIR_filter.c	189;"	d	file:
+BUFL	beamer7.h	20;"	d
+Blackman_window	FIR_filter.c	/^void Blackman_window(float f1, float f2, float *filter)$/;"	f
+CC	Makefile	/^CC 	= gcc$/;"	m
+CHANNEL	beamer.h	18;"	d
+CHANNEL	beamer7.h	18;"	d
+CS	beamer7.h	22;"	d
+Dx	main.c	/^float Dx = 35.0, dx = 35.0\/8;$/;"	v
+Dy	main.c	/^float Dy = 25.0, dy = 25.0\/6;$/;"	v
+FS	beamer.h	16;"	d
+FS	beamer7.h	16;"	d
+FilterData	beamer.h	/^struct FilterData {$/;"	s
+FilterData	beamer7.h	/^struct FilterData {$/;"	s
+HIGHPASS	beamer.h	14;"	d
+HIGHPASS	beamer7.h	14;"	d
+IIR_FIRST_ORDER	IIR_filter.c	32;"	d	file:
+IIR_SECOND_ORDER	IIR_filter.c	22;"	d	file:
+IIR_direct_form_I	IIR_filter.c	/^short IIR_direct_form_I(short input, struct FilterData *buf)$/;"	f
+LOWPASS	beamer.h	13;"	d
+LOWPASS	beamer7.h	13;"	d
+SAMPLE	beamer7.h	21;"	d
+SAMPLE	main.c	64;"	d	file:
+TAPS	beamer.h	19;"	d
+TAPS	beamer7.h	19;"	d
+_BEAMER7_H	beamer7.h	9;"	d
+_FILTERTEST_H	beamer.h	9;"	d
+alpha	signal.c	/^float alpha[CHANNEL] = {270, 210, 150, 90, 30, -30, 0};$/;"	v
+beamer	beamformer.c	/^float	beamer[CHANNEL][TAPS];        \/\/ æ»¤æ³¢å™¨ç³»æ•°(åŒå­—å¯¹é½)$/;"	v
+beamer	main.c	/^float	beamer[CHANNEL][TAPS];        \/\/ ÂË²¨Æ÷ÏµÊı(Ë«×Ö¶ÔÆë)$/;"	v
+beamerinit	beamformer.c	/^void beamerinit(int argc)$/;"	f
+beamformer	beamformer.c	/^void beamformer()$/;"	f
+beamformer	main.c	/^void beamformer()$/;"	f
+beamformer_filter	beamformer.c	/^float beamformer_filter()$/;"	f
+c	main.c	/^float c = 34000.0;$/;"	v
+coeff	IIR_filter.c	/^float coeff[2][5];$/;"	v
+delay	signal.c	/^float delay[CHANNEL];   \/\/ æ¯è·¯å»¶è¿Ÿï¼Œå•ä½ä¸ºé‡‡æ ·ç‚¹ï¼Œæµ®ç‚¹æ•°$/;"	v
+desired	beamformer.c	/^float   desired[TAPS];$/;"	v
+desired	main.c	/^float   desired[TAPS];$/;"	v
+direction	main.c	/^float direction[CHANNEL] = {    \/\/ Ã¿Â·ÑÓ³Ù£¬µ¥Î»ÎªÃë»òºÁÃë$/;"	v
+dx	main.c	/^float Dx = 35.0, dx = 35.0\/8;$/;"	v
+dy	main.c	/^float Dy = 25.0, dy = 25.0\/6;$/;"	v
+filter_design	IIR_filter.c	/^void filter_design(int low_pass, int freq, int type)$/;"	f
+filter_init	noise.c	/^void filter_init()$/;"	f
+fl	main.c	/^struct FilterData fl[4];$/;"	v	typeref:struct:FilterData
+fl	noise.c	/^struct FilterData fl[4];$/;"	v	typeref:struct:FilterData
+fp_signal	signal.c	/^FILE *fp_signal;$/;"	v
+fpn	main.c	/^FILE *fpn;$/;"	v
+init_array	main.c	/^void init_array(int argc)$/;"	f
+init_delays	signal.c	/^void init_delays()$/;"	f
+input	beamformer.c	/^short   input[CHANNEL][TAPS];        \/\/ é˜µåˆ—è¾“å…¥åºåˆ—,å¸¦è®­ç»ƒå™ªå£°æºå åŠ $/;"	v
+input	main.c	/^short   input[CHANNEL][TAPS];        \/\/ ÕóÁĞÊäÈëĞòÁĞ$/;"	v
+main	channel7.c	/^int main(int argc, char *argv)$/;"	f
+main	main.c	/^int main(int argc, char *argv)$/;"	f
+mic	beamformer.c	/^short   mic[CHANNEL][TAPS];          \/\/ é˜µåˆ—è¾“å…¥åºåˆ—,ä¸å¸¦è®­ç»ƒå™ªå£°æº$/;"	v
+mu_beamer	beamformer.c	/^float	mu_beamer = 2.e-11;        	\/\/ é˜µåˆ—è‡ªé€‚åº”æ­¥é•¿$/;"	v
+mu_beamer	main.c	/^float	mu_beamer = 1.e-12;        	\/\/ ÕóÁĞ×ÔÊÊÓ¦²½³¤$/;"	v
+noise	main.c	/^short noise[4][100];        \/\/ 4Â·ÔëÉùÔ´£¬Ã¿Â·±£Áô100µã(×óÓÒÁ½±ß×î´óÑÓ³Ù)$/;"	v
+noise	noise.c	/^short noise[4][BUFL];        \/\/ 4è·¯å™ªå£°æºï¼Œæ¯è·¯ä¿ç•™100ç‚¹(å·¦å³ä¸¤è¾¹æœ€å¤§å»¶è¿Ÿ)$/;"	v
+noise_add	main.c	/^short noise_add(int ch)$/;"	f
+noise_add	noise.c	/^short noise_add(int ch)$/;"	f
+noise_gen	main.c	/^void noise_gen()$/;"	f
+noise_gen	noise.c	/^void noise_gen()$/;"	f
+noisedir	main.c	/^float noisedir[4][2] = {    \/\/ ÔëÉùÔ´·½Î», theta, phi$/;"	v
+noisedir	noise.c	/^float noisedir[4] = {       \/\/ å™ªå£°æºæ–¹ä½, theta$/;"	v
+r_chn	beamformer.c	/^float	r_chn = 1.0\/CHANNEL;$/;"	v
+r_chn	main.c	/^float	r_chn = 1.0\/CHANNEL;$/;"	v
+radius	signal.c	/^float radius = 4.25;  \/* cm *\/$/;"	v
+savefile	beamformer.c	/^void savefile(int num)$/;"	f
+savefile	main.c	/^void savefile()$/;"	f
+sig_dir	signal.c	/^float   sig_dir = -108.0;              \/\/ ä¿¡å·æ–¹å‘$/;"	v
+signal_resample	signal.c	/^float signal_resample(int ch)$/;"	f
+source	signal.c	/^short source[BUFL][CHANNEL]; \/\/ ä¿¡å·æº$/;"	v
+sum_input	beamformer.c	/^short   sum_input[TAPS];         	\/\/ signal tap sum$/;"	v
+sum_input	main.c	/^short   sum_input[TAPS];        	\/\/ signal tap sum$/;"	v
+tap_sum	beamformer.c	/^float	tap_sum[TAPS];                \/\/ filter tap sum$/;"	v
+tap_sum	main.c	/^float	tap_sum[TAPS];                \/\/ filter tap sum$/;"	v
+update_signal	signal.c	/^void update_signal()$/;"	f
+x1	beamer.h	/^    float x1[2], x2[2];$/;"	m	struct:FilterData
+x1	beamer7.h	/^    float x1[2], x2[2];$/;"	m	struct:FilterData
+x2	beamer.h	/^    float x1[2], x2[2];$/;"	m	struct:FilterData
+x2	beamer7.h	/^    float x1[2], x2[2];$/;"	m	struct:FilterData
+y1	beamer.h	/^    float y1[2], y2[2];$/;"	m	struct:FilterData
+y1	beamer7.h	/^    float y1[2], y2[2];$/;"	m	struct:FilterData
+y2	beamer.h	/^    float y1[2], y2[2];$/;"	m	struct:FilterData
+y2	beamer7.h	/^    float y1[2], y2[2];$/;"	m	struct:FilterData
